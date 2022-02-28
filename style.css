@@ -1,0 +1,249 @@
+*{
+    font-family: 'Signika Negative', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.navbar .navbar-brand{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+.navbar .navbar-brand span{
+    font-weight: 500;
+}
+.navbar .navbar-nav{
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 19px;
+    margin-right: 15px;
+}
+.navbar .navbar-nav button{
+    
+    border-radius: 900px;
+    width: 100px;
+}
+.home img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.home-title-container{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+.home h1{
+    font-size: 80px;
+    color: rgb(54, 53, 53);
+    line-height: 70px;
+}
+.home p{
+    font-size: 20px;
+}
+.home button{
+    width: 150px;
+    height: 50px;
+    border-radius: 900px;
+}
+.row{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    
+   
+}
+.home-title-img{
+    display: flex;
+    justify-content: flex-end;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.2;
+    bottom: 0;
+}
+
+
+.about{
+    padding: 50px 40px 50px 40px;
+    text-align: center;
+    color: white;
+}
+.about h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.about p{
+    font-size: 20px;
+    margin-top: 25px;
+
+}
+.about button{
+    color: #0d6efd;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+.about button:hover{
+    color: white;
+    background-color: #0d6efd;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 100px;
+}
+ .project{
+    padding: 50px 40px 50px 40px;   
+}
+.project .carousel{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 30px;
+}
+.project h1{
+    text-align: center;
+    font-size: 60px;
+}
+.project .container-project{
+    
+    height: 300px;
+    margin-top: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.project .carousel img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  
+}
+/* .carousel .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    color: white;
+
+} */
+.carousel .carousel-indicators{
+    position: absolute;
+    bottom: -10px;
+}
+.interest {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ background-color:#0d6efd ;
+padding: 50px 40px 50px 40px;
+
+}
+
+.interest p{
+    color:  white;
+    font-size: 70px;
+    /* line-height: 20px; */
+    text-align: left;
+    font-weight: 100;
+    line-height: 70px;
+}
+.interest p span{
+    font-weight: 500;
+}
+.interest button{
+    width: 200px;
+}
+
+.interest .container .col1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.interest .col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interest button{
+    color: #0d6efd;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    
+    
+}
+.pricing{
+    padding: 40px;
+}
+
+.pricing .item-container{
+    
+    background-color:;
+    padding: 20px;  
+    display: flex;
+    justify-content: center;
+    
+}
+/* pricing hover */
+.pricing .item-container:hover{
+    padding: 15px;
+    transition: 0.3s;
+}
+.pricing .item{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 10px;
+    width: 90%;
+    
+}
+.pricing .item ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.pricing .item h3{
+    background-color: #0d6efd;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+.pricing li{
+    font-size: 20px;
+    padding: 10px;
+}
+.pricing li:nth-child(even){
+    background-color: #dfe4ea;
+}
+.pricing h1{
+    text-align: center;
+    font-size: 60px;
+}
+.contact{
+    width: 100%;
+}
+.contact-container{
+    width: 80%;
+    height: 100px;
+    background-color:#0d6efd;
+    border-radius: 20px;
+}
+@media (min-width: 992px) { 
+   .pricing .item{
+       width: 100%;
+   }
+   .home-title-img{
+     position: static;
+     z-index: 0;
+     opacity: 1;
+   }
+}
+
